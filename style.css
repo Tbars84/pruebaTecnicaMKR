@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700|Lobster');
+
+html , body , main {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+}
+main {
+  background: url(images/landscape.jpg) center center no-repeat , rgb(170, 170, 170);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main *{
+  margin: 0;
+  padding: 0;
+}
+main figure{
+  max-width:50%;
+  text-align: center;
+  color: #FFFFFF;
+}
+main figure img{
+  width: 100%;
+  max-width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+main figure figcaption h1{
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+main figure figcaption p{
+  font-family: 'Arimo', sans-serif;
+  font-size: 0.8rem;
+}
